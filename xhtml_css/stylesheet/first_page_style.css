@@ -1,0 +1,243 @@
+
+		
+		body { 
+			background-color : #F2F2F2;
+			
+			
+			
+			
+			font-size: 15px;
+			word-spacing: 3px;
+		}
+		
+		
+		
+		
+		
+		h1 {
+			color: green;
+		}
+		
+		p {
+			
+			
+			margin-left: auto;
+			margin-right: auto;
+			
+			margin-bottom: 45px;
+			
+			
+			font-size: 15.5px;
+			font-family: "Trebuchet MS" , Sans-serif;
+			color: #151515;
+			line-height: 22px;
+		}
+		
+		#theQuoteText {
+			
+			width : 75%;
+			padding-left: 65px;
+			padding-top: 65px;
+			padding-bottom: 65px;
+			padding-right: 65px;
+			
+			border: 1px solid white;
+			
+			background-color: #E3F6CE;
+			
+			background-image:url("../img/gray-quotation-marks-hi.png");
+			background-repeat: no-repeat;
+			background-position: -3% -15%;
+			background-size: 145px 125px;
+			background-origin: border-box;
+			
+			
+			
+			box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+		}
+		
+		div{
+			
+		
+		}
+	
+		#largerTextBlock {
+		
+			
+			width: 85%;
+			
+			margin-left: auto;
+			margin-right: auto;
+			
+			margin-bottom: 45px;
+			
+			
+			background-color: #F2F5A9;
+			background-image:url("../img/violetFlower_small.png");
+			background-repeat: no-repeat;
+			background-position: 100% 100%;
+			background-size: 15% auto;
+			
+			box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+			
+			
+			border: 1px solid white;
+			
+			
+		}
+		
+		#textBG {
+		
+			
+			background-image: url("../img/op25_whitesquare.png");
+			background-repeat: repeat;
+			margin:0px;		
+			width: 87.5%;		
+				margin-left: auto;
+			margin-right: auto;
+		
+		}
+		
+		#mainText {
+			
+			
+			
+			
+		}
+		
+		
+		a.independentLink:link{
+		
+			
+			color: #071907;
+			text-decoration: none;
+		}
+		
+		a.independentLink:visited {
+			color: #122A0A;
+			text-decoration: none;
+		}
+		
+		a.independentLink:hover {
+			color: #088A08;
+			font-family:monospace;
+		
+		}
+		
+		a.independentLink:active {
+			color:#298A08;
+			font-family:monospace;
+			text-decoration: underline;
+		}
+		
+		
+		a.inTextLinks:link {
+			color: #FF0000;
+			text-decoration: none;
+			
+		
+		}
+		
+		a.inTextLinks:visited {
+			color: #DF0000;
+			text-decoration: none;
+		}
+		
+		a.inTextLinks:hover {
+			color:black;
+			border-bottom: dotted 1px;
+			background-color: #F5A9A9;
+		}
+		
+		a.inTextLinks:active {
+			color: #FE2E2E;
+			border-bottom : solid 1px;
+		}
+		
+		
+		#tableBlockTest{
+			padding: 0px;
+			background-color: #F5F3F5;
+			
+			box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+			
+			width: 85%;
+			margin-left: auto;
+			margin-right: auto;
+			
+			margin-bottom: 45px;
+
+		}
+		
+		
+		
+		table {
+			border-collapse: collapse;
+			background-color: #E3F6CE;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			
+			box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+			
+			
+			
+		}
+		table, td, th{
+			border: 1px solid #858585;
+		}
+		
+		
+		
+		td{
+			/*border: 1px solid #F2F2F2;*/
+			padding: 15px;
+			text-align: center;
+			
+		}
+		
+		th{
+			background-color: #E3F6CE;
+			padding: 15px;
+		}
+		
+		tr{
+			background-color: #D8D8D8;
+		}
+		
+		tr.alt{
+			background-color : #F2F2F2;
+		}
+		
+		
+		#listTest {
+			border: 1px solid gray;
+			width: 85%;
+			box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+			margin-left: auto;
+			margin-right: auto;
+			
+			margin-bottom: 45px;
+		}
+		
+		#listBox {
+			padding-left:50px;
+		}
+		
+		ul {
+			list-style-type: circle;
+			padding: 15px;
+		}
+		
+		ol {
+			list-style-type: upper-roman;
+			padding: 15px;
+		}
+		
+		li.topLevel {
+			list-style-image: url(../img/sqpurple.gif);
+		}
+		
+
+
+

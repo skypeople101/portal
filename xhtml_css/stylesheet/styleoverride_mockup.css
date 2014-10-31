@@ -1,0 +1,56 @@
+/* Placement */
+
+
+.container {
+    
+    max-width: 840px;
+    /*12 x 70 = 840 */
+    margin-top: 30px;
+    color: #848780;
+}
+
+div #headerName, #headerLogo {
+    display: block;
+    float: left;
+}
+
+div#headerLogo {
+    margin-top: 5px;  
+   
+}
+
+
+
+
+#headerPoster {
+    padding-left:20px;
+    padding-right:20px;
+    
+}
+
+
+
+/* Typography */
+
+
+#headerName h1{
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+#headerName h4 {
+    
+
+    font-size: 1em; 
+    font-weight: 400;
+    
+}
+
+/* as long as the window width is greater than 768px, the right content panel will maintain its right alignment) */
+@media (min-width:768px) 
+.rightContentPanel {
+    
+    margin-left: 285px;
+    
+}
